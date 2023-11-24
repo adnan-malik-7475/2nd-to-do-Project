@@ -7,10 +7,10 @@ export const Task = () => {
 
 
       <div className=" justify-center items-center  ">
-        <div className="ml-12 mt-12 font-bold"> <button> + Check In</button>
+        <div className=" mt-12 font-bold"> <button> + Check In</button>
           <h3 className="mt-4 mb-0 font-semibold">Current Location</h3>
         </div>
-        <table class="table-auto  ml-12 ">
+        <table >
 
           <tbody>
             <tr>

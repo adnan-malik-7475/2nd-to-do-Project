@@ -1,33 +1,34 @@
 import React from 'react'
 import { TaskIcon, LocationIcon, LogoutIcon } from "./icon";
 import { Link } from 'react-router-dom';
+import { Button } from './button';
 export const Navbar = () => {
   return (
     <div className="flex">
     <div className="w-1/5 mt-12">
     <Link to="/Sidebar"   >
-   <button className="w-64 h-14 flex items-center bg-black text-white rounded-e-full ">
+   <Button variant="TaskButton">
      <span className="mr-2 ">
-       <TaskIcon className=""/> 
+       <TaskIcon /> 
      </span>
    Task
-   </button>
+   </Button>
    </Link> 
-   <Link  to="/Task" className='ml-4 '>
-   <button className="w-64 h-14 flex  text-black rounded-e-full pt-[18px]  active:bg-black ">
+   <Link  to="/Task" >
+   <Button variant="LocationButton">
      <span className="mr-2 ml-12">
-       <LocationIcon className=""/> 
+       <LocationIcon /> 
      </span>
   Location
-   </button>
+   </Button>
    </Link>
    <Link  to="/Login" className='ml-4 mt-4'>
-   <button className="w-64 h-14 flex  bg-black text-black rounded-e-full  mt-[320px] bg-white  inline-block">
+   <Button variant="logout" >
      <span className="mt-[6px] mr-[4px] ml-12 flex ">
        <LogoutIcon className="  "/> 
      </span>
     Log out
-   </button>
+   </Button>
    </Link>
  </div></div>
 

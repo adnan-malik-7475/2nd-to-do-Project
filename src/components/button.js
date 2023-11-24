@@ -26,9 +26,9 @@ export const CancelButton = ({ onClick }) => {
 
 const variants = {
   TaskButton:
-    "transition duration-200 mt-4 bg-black hover:bg-black-200 focus:bg-black-700 focus:shadow-sm  text-white w-full py-4 rounded-e-full text-sm shadow-sm hover:shadow-md font-semibold text-center inline-block",
+    "w-56 h-14 flex  bg-black text-black rounded-e-full   bg-Black text-white   inline-block",
   LocationButton:
-    "transition duration-200 mt-4 bg-black hover:bg-black-200 focus:bg-black-700 focus:shadow-sm  text-white w-full py-4 rounded-e-full text-sm shadow-sm hover:shadow-md font-semibold text-center inline-block",
+    "w-56 h-14 flex  text-black rounded-e-full pt-[6px]  active:bg-black ",
   logout:
     "mt-80 mb transition duration-200 mt-4 bg-white hover:bg-black-200 focus:bg-black-700 focus:shadow-sm focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50 text-black w-full py-4 rounded-e-full text-sm shadow-sm hover:shadow-md font-semibold text-center inline-block",
   skip: "absolute left-[206px] top-[90px]  text-black text-xs",
